@@ -2,8 +2,12 @@
 
 <p>
   <strong>Name:</strong>
-  <%= @employee.name %>
+  <%= @employee.name %> <br> <br>
+  <strong>Peripherals</strong>
+  <%@employee.peripherals.each do |peripheral|%>
+     <li> <%= peripheral.name%> </li>
+   <%end%>
 </p>
 
-<%= link_to 'Edit', edit_employee_path(@employee) %> |
-<%= link_to 'Back', employees_path %>
+<%= link_to 'Edit', edit_employee_path(@employee), :class =>"btn btn-large btn-default" %> 
+<%= link_to 'Back', employees_path, :class =>"btn btn-large btn-default" %>

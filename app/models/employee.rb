@@ -7,9 +7,7 @@ class Employee < ActiveRecord::Base
   private 
   
   def update_peripherals
-    peripherals.delete_all
     selected_peripherals = ep_list.nil? ? [] : ep_list.keys.collect{|id| Peripherals.find_by_id(id)}
     selected_peripherals.each {|ep| self.peripherals << ep}
-    puts selected_peripherals
   end
 end
