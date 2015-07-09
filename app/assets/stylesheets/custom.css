@@ -1,0 +1,63 @@
+.fa-fw{
+  font-size: 20px;
+}
+
+.login-align{
+  float: right;
+
+}
+.signup-align{
+  float: right;
+}
+.login-panel-margin{
+  margin-top: 5%;
+}
+.btn-align{
+  width: 24% ! important;
+  float: right;
+  margin-left: 10px! important;
+}
+.btn-back{
+  width: 10% ! important;
+  float: right;
+  margin-left: 10px! important;
+}
+.error{
+    color:red;
+    font-style:italic;
+    font-size: 15px
+}
+.alert {
+  padding: 15px;
+  margin-bottom: -27px;
+  border: 1px solid transparent;
+  margin-left: 35%;
+  color: red;
+}
+.form-group-bottom {
+  margin-bottom: 6px !important;
+}
+
+.ui-datepicker-trigger {
+  border: 0;
+  width: 25px !important;
+  margin-bottom: 4px !important;
+}
+.alert-notice{
+  color: green;
+}
+.cal-size{
+  font-size: 20px ! important;
+}
+.form-size{
+    width: 38% ! important;
+}
+.align-user{
+  float: right ! important;
+  color: seashell ! important;
+  font-size: 10px ! important;
+  margin-right: 21px ! important;
+}
+.logout{
+  margin-left: 525%;
+}
